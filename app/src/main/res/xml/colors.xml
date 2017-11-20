@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colors>
+	<color>#FFD700</color><!-- Yellow-->
+	<color>#B22222</color><!-- Dark Red/FireBrick-->
+	<color>#6B8E23</color><!-- Green-->
+	<color>#3A5FCD</color><!-- Light Blue-->
+	<color>#8B4726</color><!-- Brown-->
+	<color>#551A8B</color><!-- Purple-->
+	<color>#DF42B9</color><!-- pINK-->
+	<color>#11d1d6</color><!--Cyan-->
+	<empty>#8B7E66</empty><!-- Gray and black-->
+</colors>

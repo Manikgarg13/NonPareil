@@ -1,0 +1,42 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\NonPareil\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "F:\\NonPareil\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,6,7,8,10,11,17",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,163,210,260,348,404,664",
+                        "endLines": "5,6,7,8,10,11,17",
+                        "endColumns": "16,46,49,44,55,44,53",
+                        "endOffsets": "158,205,255,300,399,444,713"
+                    }
+                },
+                {
+                    "source": "F:\\NonPareil\\app\\src\\main\\res\\values\\attrs.xml",
+                    "from": {
+                        "startLines": "-1,-1,5,-1,-1,-1",
+                        "startColumns": "-1,-1,1,-1,-1,-1",
+                        "startOffsets": "-1,-1,170,-1,-1,-1",
+                        "endColumns": "-1,-1,38,-1,-1,-1",
+                        "endOffsets": "-1,-1,207,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "9,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "305,449,488,530,575,623",
+                        "endColumns": "42,38,41,44,47,40",
+                        "endOffsets": "343,483,525,570,618,659"
+                    }
+                }
+            ]
+        }
+    ]
+}
