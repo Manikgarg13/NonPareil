@@ -6,7 +6,7 @@
 	<color>#3A5FCD</color><!-- Light Blue-->
 	<color>#8B4726</color><!-- Brown-->
 	<color>#551A8B</color><!-- Purple-->
-	<color>#DF42B9</color><!-- pINK-->
-	<color>#11d1d6</color><!--Cyan-->
+	<!--<color>#DF42B9</color><! pINK-->
+	<!--<color>#11d1d6</color><!Cyan-->
 	<empty>#8B7E66</empty><!-- Gray and black-->
 </colors>

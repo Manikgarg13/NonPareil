@@ -11,7 +11,7 @@
     <string name="lose_dialog_title">you lost!</string>
     <string name="newgame">new game</string>
     <string name="noLines">12</string>
-    <string name="noPositions">8</string>
+    <string name="noPositions">4</string>
     <string name="patternNoLines">1</string>
     <string name="resultNoPositions">1</string>
     <string name="tileSize">500</string>
