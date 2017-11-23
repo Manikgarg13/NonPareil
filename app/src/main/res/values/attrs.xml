@@ -5,5 +5,5 @@
 	<string name="patternNoLines">1</string>
 	<string name="noPositions">4</string>
 	<string name="resultNoPositions">1</string>
-	<string name="tileSize">500</string>
+	<string name="tileSize">50</string>
 </resources>

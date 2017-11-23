@@ -1,19 +1,18 @@
 package de.makkiato.android.mastermind;
 
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.Dialog;
+import android.app.Activity;//window
+import android.app.AlertDialog;//2,3 dialogs
+import android.app.Dialog;//promotes user
 import android.content.DialogInterface;
 import android.content.pm.ActivityInfo;
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import android.view.MotionEvent;
-import android.view.View;
-import android.view.View.OnTouchListener;
+import android.os.Bundle;//str
+import android.view.Menu;//manging the items
+import android.view.MenuInflater;// instantiate menu XML files
+import android.view.MenuItem;//directly access
+import android.view.MotionEvent;// report movement
+import android.view.View;//base class building block for suer interface
+import android.view.View.OnTouchListener;//callback  when a touch event
 import android.widget.ScrollView;
-
 import java.util.Random;
 
 public class Mastermind extends Activity {
@@ -156,9 +155,9 @@ public class Mastermind extends Activity {
 		@Override
 		public boolean onTouch(View v, MotionEvent event) {
 			if (event.getAction() == MotionEvent.ACTION_UP) {
-				int[] lineColors = gridView.getLineColors();
-				int[] result = evaluateGameState(lineColors);
-				resultView.setResult(gridView.getActiveLine(), result);
+				int[] lineColors = gridView.getLineColors();//taking color
+				int[] result = evaluateGameState(lineColors);//no. for color
+				resultView.setResult(gridView.getActiveLine(), result);//matching them
 				if (result[0] == 4) {
 					gameState = WIN;
 					showDialog(DIALOG);

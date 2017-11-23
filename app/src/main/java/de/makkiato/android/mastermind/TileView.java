@@ -91,7 +91,7 @@ public abstract class TileView extends View {
 		drawable.draw(canvas);
 		tileBmp = bitmap;
 
-		drawable = context.getResources().getDrawable(R.drawable.tile_active);
+		drawable = context.getResources().getDrawable(R.drawable.tile_active);// for active line
 		bitmap = Bitmap.createBitmap(tileSize, tileSize,
 				Bitmap.Config.ARGB_8888);
 		canvas = new Canvas(bitmap);
@@ -101,8 +101,8 @@ public abstract class TileView extends View {
 	}
 
 	private void setupColors(Context context) {//takes colors values from colour.xml file
-		tileColors = new int[noPositions][noLines];
-		isColorSet = new boolean[noPositions][noLines];
+		tileColors = new int[noPositions][noLines];//color count
+		isColorSet = new boolean[noPositions][noLines];//t or f
 		for (int p = 0; p < noPositions; p++) {
 			for (int l = 0; l < noLines; l++) {
 				tileColors[p][l] = -1;
@@ -170,7 +170,7 @@ public abstract class TileView extends View {
 			activeLine = 0;
 			result = -1;
 		}
-		invalidate();
+		invalidate();//pre defined
 		return result;
 	}
 

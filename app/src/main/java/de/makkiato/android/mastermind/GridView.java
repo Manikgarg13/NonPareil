@@ -6,6 +6,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 
 public class GridView extends TileView {
+
 	public GridView(Context context, AttributeSet attrs) {
 		super(context, attrs);
 	}
@@ -18,19 +19,19 @@ public class GridView extends TileView {
 	public void onDraw(Canvas canvas) {
 		for (int p = 0; p < noPositions; p++) {
 			for (int l = 0; l < noLines; l++) {
-				if (l == getActiveLine() && tileBmpActive != null) {
+				if (l == getActiveLine() && tileBmpActive != null) {//colouring active line
 					canvas.drawBitmap(tileBmpActive, xOffset + p * tileSize,
 							yOffset + l * tileSize, paint);
 				}
-				if (l != getActiveLine() && tileBmp != null) {
+				if (l != getActiveLine() && tileBmp != null) {//colouring background line
 					canvas.drawBitmap(tileBmp, xOffset + p * tileSize, yOffset
 							+ l * tileSize, paint);
 				}
-				if (isColorSet[p][l]) {
+				if (isColorSet[p][l]) {//circle color fill
 					canvas.drawCircle(xOffset + p * tileSize + tileSize / 2,
 							yOffset + l * tileSize + tileSize / 2,
 							(tileSize / 2) - 8, colors.get(tileColors[p][l]));
-				} else {
+				} else {// circle empty fill
 					canvas.drawCircle(xOffset + p * tileSize + tileSize / 2,
 							yOffset + l * tileSize + tileSize / 2,
 							(tileSize / 2) - 8, emptyColor);
